@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 import pickle
 
-st.image(r"C:\inno image.jpeg")
+image="inno image.jpeg"
 st.title("HOUSE PRICE PREDICTION")
 model = pickle.load(open(r"C:\Users\HP\Downloads\lr.pkl","rb"))
 
